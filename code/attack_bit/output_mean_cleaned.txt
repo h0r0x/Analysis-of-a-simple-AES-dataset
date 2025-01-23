@@ -1,0 +1,53 @@
+[Nm=100] Weighted key guess:[0m
+[91mB9[0m [91mA0[0m [91mEF[0m [91mC6[0m [91mBF[0m [91m40[0m [91mB6[0m [91mAF[0m [91m19[0m [91mFF[0m [91m4F[0m [91mDA[0m [91m76[0m [91m82[0m [91mB1[0m [92m3C[0m
+[96m[1m[Nm=100] Most frequent key guess:[0m
+[91m12[0m [91m01[0m [91mC2[0m [91m10[0m [91m02[0m [91m03[0m [91m21[0m [91m1B[0m [91m0A[0m [91m03[0m [91m0A[0m [91m19[0m [91m0B[0m [91m01[0m [91m08[0m [91m10[0m
+[96m[1m[Nm=100] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=100] Total time: 33.30s, Avg/byte=2.08s[0m
+[93mOutput stored in: data/attack_bit_mean/df/100
+
+[Nm=200] Weighted key guess:[0m
+[91m95[0m [92m7E[0m [91mFB[0m [91m3F[0m [92m28[0m [91m40[0m [91mE4[0m [91m1B[0m [91m56[0m [91m03[0m [91m09[0m [91mDA[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=200] Most frequent key guess:[0m
+[91m03[0m [91m13[0m [91m0E[0m [91m09[0m [91m17[0m [91m40[0m [91m15[0m [91m1B[0m [91m14[0m [91m08[0m [91m12[0m [91m16[0m [91m0D[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=200] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=200] Total time: 43.35s, Avg/byte=2.71s[0m
+[93mOutput stored in: data/attack_bit_mean/df/200
+
+[Nm=300] Weighted key guess:[0m
+[91m87[0m [92m7E[0m [91m0A[0m [91m8A[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=300] Most frequent key guess:[0m
+[91m17[0m [92m7E[0m [92m15[0m [91m10[0m [91m01[0m [91m2F[0m [91m05[0m [91m1B[0m [91m1E[0m [91m07[0m [92m15[0m [91m65[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=300] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=300] Total time: 53.72s, Avg/byte=3.36s[0m
+[93mOutput stored in: data/attack_bit_mean/df/300
+
+[Nm=400] Weighted key guess:[0m
+[91mC0[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=400] Most frequent key guess:[0m
+[91m2A[0m [92m7E[0m [92m15[0m [91m0F[0m [92m28[0m [92mAE[0m [91m05[0m [92mA6[0m [91m06[0m [92mF7[0m [92m15[0m [91m62[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=400] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=400] Total time: 63.21s, Avg/byte=3.95s[0m
+[93mOutput stored in: data/attack_bit_mean/df/400
+
+[Nm=500] Weighted key guess:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=500] Most frequent key guess:[0m
+[91m0F[0m [92m7E[0m [91m17[0m [91m10[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=500] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=500] Total time: 71.23s, Avg/byte=4.45s[0m
+[93mOutput stored in: data/attack_bit_mean/df/500
+
+[Nm=1000] Weighted key guess:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=1000] Most frequent key guess:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[96m[1m[Nm=1000] Real key:[0m
+[92m2B[0m [92m7E[0m [92m15[0m [92m16[0m [92m28[0m [92mAE[0m [92mD2[0m [92mA6[0m [92mAB[0m [92mF7[0m [92m15[0m [92m88[0m [92m09[0m [92mCF[0m [92m4F[0m [92m3C[0m
+[95m[Nm=1000] Total time: 122.94s, Avg/byte=7.68s[0m
+[93mOutput stored in: data/attack_bit_mean/df/1000

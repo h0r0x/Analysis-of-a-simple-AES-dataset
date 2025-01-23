@@ -1,0 +1,11 @@
+Top-N,Correct Bytes,Complexity Partial Key (Base),Complexity Partial Key (Exponent),Bytes to Guess,Complexity Remaining Key (Base),Complexity Remaining Key (Exponent),Total Complexity,Total Complexity (Exponent of base 2),Complexity Bruteforce (Base),Complexity Bruteforce (Exponent),Source,Nm,Total Complexity 
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_mean/df/500/statistical_results.csv,500,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_mean/df/400/statistical_results.csv,400,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_corr/df/400/statistical_results_weighted.csv,400,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_corr/df/1000/statistical_results_weighted.csv,1000,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_mean/df/400/statistical_results_frequent.csv,400,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_mean/df/500/statistical_results_frequent.csv,500,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_corr/df/300/statistical_results_weighted.csv,300,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_mean/df/1000/statistical_results_frequent.csv,1000,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_corr/df/500/statistical_results_weighted.csv,500,
+100,16,100,16,0,2,0,100000000000000000000000000000001,106.3016990363956,2,128,../attack_bit/data/attack_bit_corr/df/1000/statistical_results_frequent.csv,1000,

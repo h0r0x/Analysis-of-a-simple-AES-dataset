@@ -1,0 +1,1450 @@
+Using 100 traces...
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 2^3
+  Remaining key complexity: 2^104
+  Total complexity: 2^3 + 2^104 = 2^107.0 = 20282409603651670423947251286024
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 3^3
+  Remaining key complexity: 2^104
+  Total complexity: 3^3 + 2^104 = 2^108.75488750216347 = 20282409603651670423947251286043
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 4^3
+  Remaining key complexity: 2^104
+  Total complexity: 4^3 + 2^104 = 2^110.0 = 20282409603651670423947251286080
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 5^3
+  Remaining key complexity: 2^104
+  Total complexity: 5^3 + 2^104 = 2^110.96578428466209 = 20282409603651670423947251286141
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 10^4
+  Remaining key complexity: 2^96
+  Total complexity: 10^4 + 2^96 = 2^109.28771237954945 = 79228162514264337593543960336
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 20^6
+  Remaining key complexity: 2^80
+  Total complexity: 20^6 + 2^80 = 2^105.93156856932418 = 1208925819614629238706176
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 25^7
+  Remaining key complexity: 2^72
+  Total complexity: 25^7 + 2^72 = 2^104.50699332842308 = 4722366482875748729321
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 30^7
+  Remaining key complexity: 2^72
+  Total complexity: 30^7 + 2^72 = 2^106.34823416925963 = 4722366482891515213696
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 50^11
+  Remaining key complexity: 2^40
+  Total complexity: 50^11 + 2^40 = 2^102.08241808752197 = 4882813599511627776
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x69[0m [92m[1m0xD2[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 100^14
+  Remaining key complexity: 2^16
+  Total complexity: 100^14 + 2^16 = 2^109.01398665684614 = 10000000000000000000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Using 200 traces...
+
+Top-1 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 1^3
+  Remaining key complexity: 2^104
+  Total complexity: 1^3 + 2^104 = 2^104.0 = 20282409603651670423947251286017
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [91m[1m0x2F[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [91m[1m0x77[0m [91m[1m0x02[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 2^5
+  Remaining key complexity: 2^88
+  Total complexity: 2^5 + 2^88 = 2^93.0 = 309485009821345068724781088
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [91m[1m0x2F[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 3^6
+  Remaining key complexity: 2^80
+  Total complexity: 3^6 + 2^80 = 2^89.50977500432694 = 1208925819614629174706905
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 4^6
+  Remaining key complexity: 2^80
+  Total complexity: 4^6 + 2^80 = 2^92.0 = 1208925819614629174710272
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 5^7
+  Remaining key complexity: 2^72
+  Total complexity: 5^7 + 2^72 = 2^88.25349666421154 = 4722366482869645291821
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 10^10
+  Remaining key complexity: 2^48
+  Total complexity: 10^10 + 2^48 = 2^81.21928094887363 = 281484976710656
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [92m[1m0xF7[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 20^13
+  Remaining key complexity: 2^24
+  Total complexity: 20^13 + 2^24 = 2^80.18506523353571 = 81920000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 25^13
+  Remaining key complexity: 2^24
+  Total complexity: 25^13 + 2^24 = 2^84.37013046707142 = 1490116119401542841
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 30^13
+  Remaining key complexity: 2^24
+  Total complexity: 30^13 + 2^24 = 2^87.78957774291075 = 15943230000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Using 300 traces...
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD4[0m [91m[1m0x91[0m [91m[1m0x68[0m [91m[1m0xE9[0m [91m[1m0x55[0m [91m[1m0x58[0m [91m[1m0x2D[0m [91m[1m0x1E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 2^6
+  Remaining key complexity: 2^80
+  Total complexity: 2^6 + 2^80 = 2^86.0 = 1208925819614629174706240
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 3^8
+  Remaining key complexity: 2^64
+  Total complexity: 3^8 + 2^64 = 2^76.67970000576925 = 18446744073709558177
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 4^8
+  Remaining key complexity: 2^64
+  Total complexity: 4^8 + 2^64 = 2^80.0 = 18446744073709617152
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 5^8
+  Remaining key complexity: 2^64
+  Total complexity: 5^8 + 2^64 = 2^82.5754247590989 = 18446744073709942241
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 10^10
+  Remaining key complexity: 2^48
+  Total complexity: 10^10 + 2^48 = 2^81.21928094887363 = 281484976710656
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 20^11
+  Remaining key complexity: 2^40
+  Total complexity: 20^11 + 2^40 = 2^87.54120904376099 = 205899511627776
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 25^13
+  Remaining key complexity: 2^24
+  Total complexity: 25^13 + 2^24 = 2^84.37013046707142 = 1490116119401542841
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 30^13
+  Remaining key complexity: 2^24
+  Total complexity: 30^13 + 2^24 = 2^87.78957774291075 = 15943230000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 50^13
+  Remaining key complexity: 2^24
+  Total complexity: 50^13 + 2^24 = 2^97.37013046707142 = 12207031250000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Using 400 traces...
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [91m[1m0x30[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 2^5
+  Remaining key complexity: 2^88
+  Total complexity: 2^5 + 2^88 = 2^93.0 = 309485009821345068724781088
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 3^7
+  Remaining key complexity: 2^72
+  Total complexity: 3^7 + 2^72 = 2^83.09473750504809 = 4722366482869645215883
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 4^10
+  Remaining key complexity: 2^48
+  Total complexity: 4^10 + 2^48 = 2^68.0 = 281474977759232
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 5^10
+  Remaining key complexity: 2^48
+  Total complexity: 5^10 + 2^48 = 2^71.21928094887362 = 281474986476281
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 10^12
+  Remaining key complexity: 2^32
+  Total complexity: 10^12 + 2^32 = 2^71.86313713864834 = 1004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 20^12
+  Remaining key complexity: 2^32
+  Total complexity: 20^12 + 2^32 = 2^83.86313713864836 = 4096004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 50^14
+  Remaining key complexity: 2^16
+  Total complexity: 50^14 + 2^16 = 2^95.01398665684614 = 610351562500000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Using 500 traces...
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x60[0m [91m[1m0x56[0m [91m[1m0x08[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [91m[1m0x30[0m [91m[1m0xB0[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x60[0m [91m[1m0x56[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 3^10
+  Remaining key complexity: 2^48
+  Total complexity: 3^10 + 2^48 = 2^63.84962500721156 = 281474976769705
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 10^12
+  Remaining key complexity: 2^32
+  Total complexity: 10^12 + 2^32 = 2^71.86313713864834 = 1004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+
+Using 600 traces...
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2F[0m [91m[1m0x58[0m [91m[1m0x56[0m [91m[1m0x08[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [91m[1m0x30[0m [92m[1m0x4F[0m [91m[1m0xC3[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2F[0m [91m[1m0x58[0m [91m[1m0x56[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 3^11
+  Remaining key complexity: 2^40
+  Total complexity: 3^11 + 2^40 = 2^57.43458750793272 = 1099511804923
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 4^11
+  Remaining key complexity: 2^40
+  Total complexity: 4^11 + 2^40 = 2^62.0 = 1099515822080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 5^11
+  Remaining key complexity: 2^40
+  Total complexity: 5^11 + 2^40 = 2^65.54120904376099 = 1099560455901
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 10^13
+  Remaining key complexity: 2^24
+  Total complexity: 10^13 + 2^24 = 2^67.18506523353571 = 10000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Using 700 traces...
+
+Top-1 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 1^4
+  Remaining key complexity: 2^96
+  Total complexity: 1^4 + 2^96 = 2^96.0 = 79228162514264337593543950337
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x81[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2D[0m [91m[1m0x56[0m [91m[1m0x56[0m [91m[1m0x08[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x56[0m [91m[1m0x56[0m [92m[1m0xF7[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 3^10
+  Remaining key complexity: 2^48
+  Total complexity: 3^10 + 2^48 = 2^63.84962500721156 = 281474976769705
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 4^11
+  Remaining key complexity: 2^40
+  Total complexity: 4^11 + 2^40 = 2^62.0 = 1099515822080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 10^13
+  Remaining key complexity: 2^24
+  Total complexity: 10^13 + 2^24 = 2^67.18506523353571 = 10000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 50^16
+  Remaining key complexity: 2^0
+  Total complexity: 50^16 + 2^0 = 2^90.30169903639559 = 1525878906250000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Using 700 traces...
+
+Top-1 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 1^3
+  Remaining key complexity: 2^104
+  Total complexity: 1^3 + 2^104 = 2^104.0 = 20282409603651670423947251286017
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [91m[1m0x81[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2D[0m [91m[1m0x5E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 2^6
+  Remaining key complexity: 2^80
+  Total complexity: 2^6 + 2^80 = 2^86.0 = 1208925819614629174706240
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 3^9
+  Remaining key complexity: 2^56
+  Total complexity: 3^9 + 2^56 = 2^70.26466250649041 = 72057594037947619
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 4^13
+  Remaining key complexity: 2^24
+  Total complexity: 4^13 + 2^24 = 2^50.0 = 83886080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 5^13
+  Remaining key complexity: 2^24
+  Total complexity: 5^13 + 2^24 = 2^54.18506523353571 = 1237480341
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+
+Using 900 traces...
+
+Top-1 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 1^4
+  Remaining key complexity: 2^96
+  Total complexity: 1^4 + 2^96 = 2^96.0 = 79228162514264337593543950337
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0x5A[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 2^7
+  Remaining key complexity: 2^72
+  Total complexity: 2^7 + 2^72 = 2^79.0 = 4722366482869645213824
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 3^9
+  Remaining key complexity: 2^56
+  Total complexity: 3^9 + 2^56 = 2^70.26466250649041 = 72057594037947619
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Using 1000 traces...
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD4[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0xA4[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 2^9
+  Remaining key complexity: 2^56
+  Total complexity: 2^9 + 2^56 = 2^65.0 = 72057594037928448
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 3^11
+  Remaining key complexity: 2^40
+  Total complexity: 3^11 + 2^40 = 2^57.43458750793272 = 1099511804923
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 5^13
+  Remaining key complexity: 2^24
+  Total complexity: 5^13 + 2^24 = 2^54.18506523353571 = 1237480341
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 20^15
+  Remaining key complexity: 2^8
+  Total complexity: 20^15 + 2^8 = 2^72.82892142331043 = 32768000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 25^16
+  Remaining key complexity: 2^0
+  Total complexity: 25^16 + 2^0 = 2^74.30169903639559 = 23283064365386962890626
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 30^16
+  Remaining key complexity: 2^0
+  Total complexity: 30^16 + 2^0 = 2^78.5102495297363 = 430467210000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 50^16
+  Remaining key complexity: 2^0
+  Total complexity: 50^16 + 2^0 = 2^90.30169903639559 = 1525878906250000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+

@@ -1,0 +1,3532 @@
+Starting the CPA attack with improved preprocessing...
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 100 traces from position 0 to 625...
+Reading trace 0/100
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+After loading: Traces shape = (100, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (100, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 100 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: Key = 0x04, Correlation = 0.3793
+  #2: Key = 0xFB, Correlation = 0.3793
+  #3: Key = 0x05, Correlation = 0.3552
+  #4: Key = 0xFA, Correlation = 0.3552
+  #5: Key = 0x1B, Correlation = 0.3398
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x7C, Correlation = 0.4341
+  #2: Key = 0x83, Correlation = 0.4341
+  #3: Key = 0x8B, Correlation = 0.4102
+  #4: Key = 0x74, Correlation = 0.4102
+  #5: Key = 0x5C, Correlation = 0.4045
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x57, Correlation = 0.3929
+  #2: Key = 0xA8, Correlation = 0.3929
+  #3: Key = 0x4C, Correlation = 0.3915
+  #4: Key = 0xB3, Correlation = 0.3915
+  #5: Key = 0x45, Correlation = 0.3874
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: Key = 0x34, Correlation = 0.3566
+  #2: Key = 0xCB, Correlation = 0.3566
+  #3: Key = 0x00, Correlation = 0.3551
+  #4: Key = 0xFF, Correlation = 0.3551
+  #5: Key = 0x04, Correlation = 0.3534
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x0D, Correlation = 0.4159
+  #2: Key = 0xF2, Correlation = 0.4159
+  #3: Key = 0x53, Correlation = 0.4140
+  #4: Key = 0xAC, Correlation = 0.4140
+  #5: Key = 0x1D, Correlation = 0.4002
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x69, Correlation = 0.3809
+  #2: Key = 0x96, Correlation = 0.3809
+  #3: Key = 0x39, Correlation = 0.3681
+  #4: Key = 0xC6, Correlation = 0.3681
+  #5: Key = 0x79, Correlation = 0.3618
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x73, Correlation = 0.4359
+  #2: Key = 0x8C, Correlation = 0.4359
+  #3: Key = 0x0C, Correlation = 0.4273
+  #4: Key = 0xF3, Correlation = 0.4273
+  #5: Key = 0x46, Correlation = 0.4072
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x46, Correlation = 0.3822
+  #2: Key = 0xB9, Correlation = 0.3822
+  #3: Key = 0x3A, Correlation = 0.3791
+  #4: Key = 0xC5, Correlation = 0.3791
+  #5: Key = 0x1A, Correlation = 0.3737
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x5B, Correlation = 0.5247
+  #2: Key = 0xA4, Correlation = 0.5247
+  #3: Key = 0x7B, Correlation = 0.4965
+  #4: Key = 0x84, Correlation = 0.4965
+  #5: Key = 0x5F, Correlation = 0.4564
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3815
+  #2: Key = 0xF5, Correlation = 0.3815
+  #3: Key = 0x0B, Correlation = 0.3808
+  #4: Key = 0xF4, Correlation = 0.3808
+  #5: Key = 0xE0, Correlation = 0.3515
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x3A, Correlation = 0.3950
+  #2: Key = 0xC5, Correlation = 0.3950
+  #3: Key = 0x45, Correlation = 0.3950
+  #4: Key = 0xBA, Correlation = 0.3950
+  #5: Key = 0x05, Correlation = 0.3809
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x3C, Correlation = 0.3747
+  #2: Key = 0xC3, Correlation = 0.3747
+  #3: Key = 0x0E, Correlation = 0.3677
+  #4: Key = 0xF1, Correlation = 0.3677
+  #5: Key = 0xF0, Correlation = 0.3593
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x35, Correlation = 0.3897
+  #2: Key = 0xCA, Correlation = 0.3897
+  #3: Key = 0x6C, Correlation = 0.3824
+  #4: Key = 0x93, Correlation = 0.3824
+  #5: Key = 0x6D, Correlation = 0.3773
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5417
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5417
+  #3: Key = 0x38, Correlation = 0.5409
+  #4: Key = 0xC7, Correlation = 0.5409
+  #5: Key = 0x31, Correlation = 0.5303
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.5235
+  #2: Key = 0xB0, Correlation = 0.5235
+  #3: Key = 0x4D, Correlation = 0.4777
+  #4: Key = 0xB2, Correlation = 0.4777
+  #5: Key = 0xB8, Correlation = 0.4743
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5738
+  #2: Key = 0xC3, Correlation = 0.5738
+  #3: Key = 0x34, Correlation = 0.5178
+  #4: Key = 0xCB, Correlation = 0.5178
+  #5: Key = 0x3D, Correlation = 0.4866
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 2^3
+  Remaining key complexity: 2^104
+  Total complexity: 2^3 + 2^104 = 2^107.0 = 20282409603651670423947251286024
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 3^3
+  Remaining key complexity: 2^104
+  Total complexity: 3^3 + 2^104 = 2^108.75488750216347 = 20282409603651670423947251286043
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 4^3
+  Remaining key complexity: 2^104
+  Total complexity: 4^3 + 2^104 = 2^110.0 = 20282409603651670423947251286080
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 5^3
+  Remaining key complexity: 2^104
+  Total complexity: 5^3 + 2^104 = 2^110.96578428466209 = 20282409603651670423947251286141
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [91m[1m0x0A[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 10^4
+  Remaining key complexity: 2^96
+  Total complexity: 10^4 + 2^96 = 2^109.28771237954945 = 79228162514264337593543960336
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x04[0m [91m[1m0x7C[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 20^6
+  Remaining key complexity: 2^80
+  Total complexity: 20^6 + 2^80 = 2^105.93156856932418 = 1208925819614629238706176
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [91m[1m0x5B[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 25^7
+  Remaining key complexity: 2^72
+  Total complexity: 25^7 + 2^72 = 2^104.50699332842308 = 4722366482875748729321
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 30^7
+  Remaining key complexity: 2^72
+  Total complexity: 30^7 + 2^72 = 2^106.34823416925963 = 4722366482891515213696
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [91m[1m0x34[0m [91m[1m0x0D[0m [91m[1m0x69[0m [91m[1m0x73[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x3A[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 50^11
+  Remaining key complexity: 2^40
+  Total complexity: 50^11 + 2^40 = 2^102.08241808752197 = 4882813599511627776
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x69[0m [92m[1m0xD2[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x3C[0m [91m[1m0x35[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 100^14
+  Remaining key complexity: 2^16
+  Total complexity: 100^14 + 2^16 = 2^109.01398665684614 = 10000000000000000000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x57[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x46[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/100/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 200 traces from position 0 to 625...
+Reading trace 0/200
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (200, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (200, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 200 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.3044
+  #2: Key = 0xD4, Correlation = 0.3044
+  #3: Key = 0x34, Correlation = 0.3012
+  #4: Key = 0xCB, Correlation = 0.3012
+  #5: Key = 0x54, Correlation = 0.2947
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x6A, Correlation = 0.2972
+  #2: Key = 0x95, Correlation = 0.2972
+  #3: Key = 0x6E, Correlation = 0.2913
+  #4: Key = 0x91, Correlation = 0.2913
+  #5: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2867
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x18, Correlation = 0.2744
+  #2: Key = 0xE7, Correlation = 0.2744
+  #3: Key = 0x1C, Correlation = 0.2722
+  #4: Key = 0xE3, Correlation = 0.2722
+  #5: Key = 0x72, Correlation = 0.2719
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: Key = 0xC9, Correlation = 0.2918
+  #2: Key = 0x36, Correlation = 0.2918
+  #3: Key = 0x49, Correlation = 0.2732
+  #4: Key = 0xB6, Correlation = 0.2732
+  #5: Key = 0xE6, Correlation = 0.2704
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x3A, Correlation = 0.2955
+  #2: Key = 0xC5, Correlation = 0.2955
+  #3: Key = 0x53, Correlation = 0.2915
+  #4: Key = 0xAC, Correlation = 0.2915
+  #5: Key = 0x57, Correlation = 0.2757
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x5D, Correlation = 0.3166
+  #2: Key = 0xA2, Correlation = 0.3166
+  #3: Key = 0x59, Correlation = 0.2934
+  #4: Key = 0xA6, Correlation = 0.2934
+  #5: Key = 0x65, Correlation = 0.2836
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2F, Correlation = 0.3510
+  #2: Key = 0xD0, Correlation = 0.3510
+  #3: Key = 0x2D, Correlation = 0.3507
+  #4: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.3507
+  #5: Key = 0x3F, Correlation = 0.3228
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x1E, Correlation = 0.3103
+  #2: Key = 0xE1, Correlation = 0.3103
+  #3: Key = 0x1F, Correlation = 0.2818
+  #4: Key = 0xE0, Correlation = 0.2818
+  #5: Key = 0x52, Correlation = 0.2803
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x29, Correlation = 0.3705
+  #2: Key = 0xD6, Correlation = 0.3705
+  #3: Key = 0x2B, Correlation = 0.3542
+  #4: Key = 0xD4, Correlation = 0.3542
+  #5: Key = 0x5B, Correlation = 0.3502
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0B, Correlation = 0.3768
+  #2: Key = 0xF4, Correlation = 0.3768
+  #3: Key = 0x09, Correlation = 0.3690
+  #4: Key = 0xF6, Correlation = 0.3690
+  #5: Key = 0x0A, Correlation = 0.3626
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x68, Correlation = 0.3201
+  #2: Key = 0x97, Correlation = 0.3201
+  #3: Key = 0x3A, Correlation = 0.3182
+  #4: Key = 0xC5, Correlation = 0.3182
+  #5: Key = 0x2A, Correlation = 0.3175
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x77, Correlation = 0.2725
+  #2: [92m[1mKey = 0x88 (Correct)[0m, Correlation = 0.2725
+  #3: Key = 0x09, Correlation = 0.2649
+  #4: Key = 0xF6, Correlation = 0.2649
+  #5: Key = 0x61, Correlation = 0.2647
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x02, Correlation = 0.3754
+  #2: Key = 0xFD, Correlation = 0.3754
+  #3: Key = 0x06, Correlation = 0.3624
+  #4: Key = 0xF9, Correlation = 0.3624
+  #5: Key = 0x00, Correlation = 0.3299
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5232
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5232
+  #3: Key = 0x31, Correlation = 0.5163
+  #4: Key = 0xCE, Correlation = 0.5163
+  #5: Key = 0x34, Correlation = 0.4848
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4689
+  #2: Key = 0xB0, Correlation = 0.4689
+  #3: Key = 0x47, Correlation = 0.4452
+  #4: Key = 0xB8, Correlation = 0.4452
+  #5: Key = 0x43, Correlation = 0.4089
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5268
+  #2: Key = 0xC3, Correlation = 0.5268
+  #3: Key = 0x34, Correlation = 0.4572
+  #4: Key = 0xCB, Correlation = 0.4572
+  #5: Key = 0x3D, Correlation = 0.4259
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 1^3
+  Remaining key complexity: 2^104
+  Total complexity: 1^3 + 2^104 = 2^104.0 = 20282409603651670423947251286017
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [91m[1m0x2F[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [91m[1m0x77[0m [91m[1m0x02[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 2^5
+  Remaining key complexity: 2^88
+  Total complexity: 2^5 + 2^88 = 2^93.0 = 309485009821345068724781088
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [91m[1m0x2F[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 3^6
+  Remaining key complexity: 2^80
+  Total complexity: 3^6 + 2^80 = 2^89.50977500432694 = 1208925819614629174706905
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 4^6
+  Remaining key complexity: 2^80
+  Total complexity: 4^6 + 2^80 = 2^92.0 = 1208925819614629174710272
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6A[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 5^7
+  Remaining key complexity: 2^72
+  Total complexity: 5^7 + 2^72 = 2^88.25349666421154 = 4722366482869645291821
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [91m[1m0xC9[0m [91m[1m0x3A[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [91m[1m0x0B[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 10^10
+  Remaining key complexity: 2^48
+  Total complexity: 10^10 + 2^48 = 2^81.21928094887363 = 281484976710656
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x5D[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x29[0m [92m[1m0xF7[0m [91m[1m0x68[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 20^13
+  Remaining key complexity: 2^24
+  Total complexity: 20^13 + 2^24 = 2^80.18506523353571 = 81920000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 25^13
+  Remaining key complexity: 2^24
+  Total complexity: 25^13 + 2^24 = 2^84.37013046707142 = 1490116119401542841
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 30^13
+  Remaining key complexity: 2^24
+  Total complexity: 30^13 + 2^24 = 2^87.78957774291075 = 15943230000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [91m[1m0x02[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x18[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/200/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 300 traces from position 0 to 625...
+Reading trace 0/300
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (300, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (300, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 300 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: Key = 0xD4, Correlation = 0.3107
+  #2: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.3107
+  #3: Key = 0x0B, Correlation = 0.2818
+  #4: Key = 0xF4, Correlation = 0.2818
+  #5: Key = 0x54, Correlation = 0.2572
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x91, Correlation = 0.2861
+  #2: Key = 0x6E, Correlation = 0.2861
+  #3: Key = 0x6F, Correlation = 0.2816
+  #4: Key = 0x90, Correlation = 0.2816
+  #5: Key = 0x2E, Correlation = 0.2629
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x68, Correlation = 0.2617
+  #2: Key = 0x97, Correlation = 0.2617
+  #3: Key = 0x6A, Correlation = 0.2529
+  #4: Key = 0x95, Correlation = 0.2529
+  #5: Key = 0x6C, Correlation = 0.2527
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: Key = 0xE9, Correlation = 0.2731
+  #2: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2731
+  #3: Key = 0x69, Correlation = 0.2668
+  #4: Key = 0x96, Correlation = 0.2668
+  #5: Key = 0x37, Correlation = 0.2517
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x55, Correlation = 0.2240
+  #2: Key = 0xAA, Correlation = 0.2240
+  #3: Key = 0x57, Correlation = 0.2205
+  #4: Key = 0xA8, Correlation = 0.2205
+  #5: Key = 0x2A, Correlation = 0.2199
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x58, Correlation = 0.2650
+  #2: Key = 0xA7, Correlation = 0.2650
+  #3: Key = 0x41, Correlation = 0.2567
+  #4: Key = 0xBE, Correlation = 0.2567
+  #5: Key = 0x43, Correlation = 0.2521
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.3045
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.3045
+  #3: Key = 0x3D, Correlation = 0.3031
+  #4: Key = 0xC2, Correlation = 0.3031
+  #5: Key = 0x3F, Correlation = 0.3012
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x1E, Correlation = 0.2449
+  #2: Key = 0xE1, Correlation = 0.2449
+  #3: Key = 0x5A, Correlation = 0.2307
+  #4: Key = 0xA5, Correlation = 0.2307
+  #5: Key = 0x1F, Correlation = 0.2294
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3208
+  #2: Key = 0xA9, Correlation = 0.3208
+  #3: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3156
+  #4: Key = 0x54, Correlation = 0.3156
+  #5: Key = 0xD6, Correlation = 0.3130
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3580
+  #2: Key = 0xF5, Correlation = 0.3580
+  #3: Key = 0x08, Correlation = 0.3411
+  #4: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3411
+  #5: Key = 0x0B, Correlation = 0.3168
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x55, Correlation = 0.3483
+  #2: Key = 0xAA, Correlation = 0.3483
+  #3: Key = 0xD5, Correlation = 0.3343
+  #4: Key = 0x2A, Correlation = 0.3343
+  #5: Key = 0x57, Correlation = 0.3308
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x9E, Correlation = 0.2859
+  #2: Key = 0x61, Correlation = 0.2859
+  #3: Key = 0x8E, Correlation = 0.2820
+  #4: Key = 0x71, Correlation = 0.2820
+  #5: Key = 0x9A, Correlation = 0.2612
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x06, Correlation = 0.3060
+  #2: Key = 0xF9, Correlation = 0.3060
+  #3: Key = 0x02, Correlation = 0.3053
+  #4: Key = 0xFD, Correlation = 0.3053
+  #5: Key = 0x40, Correlation = 0.2887
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5198
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5198
+  #3: Key = 0x34, Correlation = 0.5141
+  #4: Key = 0xCB, Correlation = 0.5141
+  #5: Key = 0x31, Correlation = 0.4957
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4513
+  #2: Key = 0xB0, Correlation = 0.4513
+  #3: Key = 0x47, Correlation = 0.4367
+  #4: Key = 0xB8, Correlation = 0.4367
+  #5: Key = 0x43, Correlation = 0.4124
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.4663
+  #2: Key = 0xC3, Correlation = 0.4663
+  #3: Key = 0x34, Correlation = 0.3826
+  #4: Key = 0xCB, Correlation = 0.3826
+  #5: Key = 0x3D, Correlation = 0.3749
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD4[0m [91m[1m0x91[0m [91m[1m0x68[0m [91m[1m0xE9[0m [91m[1m0x55[0m [91m[1m0x58[0m [91m[1m0x2D[0m [91m[1m0x1E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 2^6
+  Remaining key complexity: 2^80
+  Total complexity: 2^6 + 2^80 = 2^86.0 = 1208925819614629174706240
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 3^8
+  Remaining key complexity: 2^64
+  Total complexity: 3^8 + 2^64 = 2^76.67970000576925 = 18446744073709558177
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 4^8
+  Remaining key complexity: 2^64
+  Total complexity: 4^8 + 2^64 = 2^80.0 = 18446744073709617152
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 5^8
+  Remaining key complexity: 2^64
+  Total complexity: 5^8 + 2^64 = 2^82.5754247590989 = 18446744073709942241
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x55[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 10^10
+  Remaining key complexity: 2^48
+  Total complexity: 10^10 + 2^48 = 2^81.21928094887363 = 281484976710656
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x58[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 20^11
+  Remaining key complexity: 2^40
+  Total complexity: 20^11 + 2^40 = 2^87.54120904376099 = 205899511627776
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x91[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 25^13
+  Remaining key complexity: 2^24
+  Total complexity: 25^13 + 2^24 = 2^84.37013046707142 = 1490116119401542841
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 30^13
+  Remaining key complexity: 2^24
+  Total complexity: 30^13 + 2^24 = 2^87.78957774291075 = 15943230000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 50^13
+  Remaining key complexity: 2^24
+  Total complexity: 50^13 + 2^24 = 2^97.37013046707142 = 12207031250000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [91m[1m0x06[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x9E[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/300/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 400 traces from position 0 to 625...
+Reading trace 0/400
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (400, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (400, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 400 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2800
+  #2: Key = 0xD4, Correlation = 0.2800
+  #3: Key = 0x0B, Correlation = 0.2535
+  #4: Key = 0xF4, Correlation = 0.2535
+  #5: Key = 0x6B, Correlation = 0.2385
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x6E, Correlation = 0.2406
+  #2: Key = 0x91, Correlation = 0.2406
+  #3: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2202
+  #4: Key = 0x81, Correlation = 0.2202
+  #5: Key = 0x6F, Correlation = 0.2198
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x68, Correlation = 0.2655
+  #2: Key = 0x97, Correlation = 0.2655
+  #3: Key = 0x6C, Correlation = 0.2573
+  #4: Key = 0x93, Correlation = 0.2573
+  #5: Key = 0x17, Correlation = 0.2452
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: Key = 0x14, Correlation = 0.2847
+  #2: Key = 0xEB, Correlation = 0.2847
+  #3: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2799
+  #4: Key = 0xE9, Correlation = 0.2799
+  #5: Key = 0x34, Correlation = 0.2617
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2511
+  #2: Key = 0xDA, Correlation = 0.2511
+  #3: Key = 0x21, Correlation = 0.2472
+  #4: Key = 0xDE, Correlation = 0.2472
+  #5: Key = 0x23, Correlation = 0.2452
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x51, Correlation = 0.2854
+  #2: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2854
+  #3: Key = 0xAF, Correlation = 0.2740
+  #4: Key = 0x50, Correlation = 0.2740
+  #5: Key = 0x41, Correlation = 0.2627
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.3074
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.3074
+  #3: Key = 0x3D, Correlation = 0.2815
+  #4: Key = 0xC2, Correlation = 0.2815
+  #5: Key = 0x2F, Correlation = 0.2803
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x1E, Correlation = 0.2309
+  #2: Key = 0xE1, Correlation = 0.2309
+  #3: Key = 0x1A, Correlation = 0.2215
+  #4: Key = 0xE5, Correlation = 0.2215
+  #5: Key = 0x58, Correlation = 0.2210
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0xA9, Correlation = 0.3083
+  #2: Key = 0x56, Correlation = 0.3083
+  #3: Key = 0x29, Correlation = 0.2988
+  #4: Key = 0xD6, Correlation = 0.2988
+  #5: Key = 0x79, Correlation = 0.2984
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3639
+  #2: Key = 0xF5, Correlation = 0.3639
+  #3: Key = 0x08, Correlation = 0.3425
+  #4: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3425
+  #5: Key = 0x1A, Correlation = 0.3042
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x55, Correlation = 0.3213
+  #2: Key = 0xAA, Correlation = 0.3213
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.3109
+  #4: Key = 0xEA, Correlation = 0.3109
+  #5: Key = 0x57, Correlation = 0.3003
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x71, Correlation = 0.2934
+  #2: Key = 0x8E, Correlation = 0.2934
+  #3: Key = 0x61, Correlation = 0.2828
+  #4: Key = 0x9E, Correlation = 0.2828
+  #5: Key = 0x0E, Correlation = 0.2633
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x44, Correlation = 0.2742
+  #2: Key = 0xBB, Correlation = 0.2742
+  #3: Key = 0x0B, Correlation = 0.2694
+  #4: Key = 0xF4, Correlation = 0.2694
+  #5: Key = 0x04, Correlation = 0.2693
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5352
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5352
+  #3: Key = 0x34, Correlation = 0.5288
+  #4: Key = 0xCB, Correlation = 0.5288
+  #5: Key = 0x31, Correlation = 0.4975
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: Key = 0x47, Correlation = 0.4833
+  #2: Key = 0xB8, Correlation = 0.4833
+  #3: Key = 0xB0, Correlation = 0.4771
+  #4: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4771
+  #5: Key = 0x43, Correlation = 0.4382
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.4470
+  #2: Key = 0xC3, Correlation = 0.4470
+  #3: Key = 0x34, Correlation = 0.3913
+  #4: Key = 0xCB, Correlation = 0.3913
+  #5: Key = 0xC2, Correlation = 0.3567
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 2/16
+  Bytes to guess: 14/16
+  Partial key complexity: 1^2
+  Remaining key complexity: 2^112
+  Total complexity: 1^2 + 2^112 = 2^112.0 = 5192296858534827628530496329220097
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [91m[1m0x30[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 2^5
+  Remaining key complexity: 2^88
+  Total complexity: 2^5 + 2^88 = 2^93.0 = 309485009821345068724781088
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x6E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [91m[1m0x0A[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 3^7
+  Remaining key complexity: 2^72
+  Total complexity: 3^7 + 2^72 = 2^83.09473750504809 = 4722366482869645215883
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [91m[1m0x14[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [91m[1m0x47[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 4^10
+  Remaining key complexity: 2^48
+  Total complexity: 4^10 + 2^48 = 2^68.0 = 281474977759232
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 5^10
+  Remaining key complexity: 2^48
+  Total complexity: 5^10 + 2^48 = 2^71.21928094887362 = 281474986476281
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [91m[1m0xA9[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 10^12
+  Remaining key complexity: 2^32
+  Total complexity: 10^12 + 2^32 = 2^71.86313713864834 = 1004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 20^12
+  Remaining key complexity: 2^32
+  Total complexity: 20^12 + 2^32 = 2^83.86313713864836 = 4096004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x68[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x44[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 50^14
+  Remaining key complexity: 2^16
+  Total complexity: 50^14 + 2^16 = 2^95.01398665684614 = 610351562500000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x1E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/400/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 500 traces from position 0 to 625...
+Reading trace 0/500
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (500, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (500, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 500 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2591
+  #2: Key = 0xD4, Correlation = 0.2591
+  #3: Key = 0xD6, Correlation = 0.2459
+  #4: Key = 0x29, Correlation = 0.2459
+  #5: Key = 0x0B, Correlation = 0.2295
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2373
+  #2: Key = 0x81, Correlation = 0.2373
+  #3: Key = 0x6E, Correlation = 0.2344
+  #4: Key = 0x91, Correlation = 0.2344
+  #5: Key = 0x3E, Correlation = 0.2095
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2435
+  #2: Key = 0xE8, Correlation = 0.2435
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2363
+  #4: Key = 0xEA, Correlation = 0.2363
+  #5: Key = 0x68, Correlation = 0.2333
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2782
+  #2: Key = 0xE9, Correlation = 0.2782
+  #3: Key = 0x36, Correlation = 0.2694
+  #4: Key = 0xC9, Correlation = 0.2694
+  #5: Key = 0x14, Correlation = 0.2590
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2549
+  #2: Key = 0xDA, Correlation = 0.2549
+  #3: Key = 0x21, Correlation = 0.2484
+  #4: Key = 0xDE, Correlation = 0.2484
+  #5: Key = 0xA5, Correlation = 0.2346
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x50, Correlation = 0.3014
+  #2: Key = 0xAF, Correlation = 0.3014
+  #3: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2941
+  #4: Key = 0x51, Correlation = 0.2941
+  #5: Key = 0x52, Correlation = 0.2586
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.3022
+  #2: Key = 0x2D, Correlation = 0.3022
+  #3: Key = 0x2F, Correlation = 0.2996
+  #4: Key = 0xD0, Correlation = 0.2996
+  #5: Key = 0x3F, Correlation = 0.2692
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x60, Correlation = 0.1881
+  #2: Key = 0x9F, Correlation = 0.1881
+  #3: Key = 0x52, Correlation = 0.1812
+  #4: Key = 0xAD, Correlation = 0.1812
+  #5: Key = 0x5E, Correlation = 0.1803
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3242
+  #2: Key = 0xA9, Correlation = 0.3242
+  #3: Key = 0x54, Correlation = 0.2961
+  #4: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.2961
+  #5: Key = 0x29, Correlation = 0.2941
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x08, Correlation = 0.3432
+  #2: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3432
+  #3: Key = 0x0A, Correlation = 0.3283
+  #4: Key = 0xF5, Correlation = 0.3283
+  #5: Key = 0x18, Correlation = 0.2852
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x55, Correlation = 0.2751
+  #2: Key = 0xAA, Correlation = 0.2751
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2736
+  #4: Key = 0xEA, Correlation = 0.2736
+  #5: Key = 0x57, Correlation = 0.2677
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x71, Correlation = 0.2874
+  #2: Key = 0x8E, Correlation = 0.2874
+  #3: Key = 0x75, Correlation = 0.2623
+  #4: Key = 0x8A, Correlation = 0.2623
+  #5: Key = 0x0E, Correlation = 0.2575
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x0B, Correlation = 0.2965
+  #2: Key = 0xF4, Correlation = 0.2965
+  #3: Key = 0x04, Correlation = 0.2826
+  #4: Key = 0xFB, Correlation = 0.2826
+  #5: Key = 0x0A, Correlation = 0.2750
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5506
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5506
+  #3: Key = 0x34, Correlation = 0.5435
+  #4: Key = 0xCB, Correlation = 0.5435
+  #5: Key = 0x31, Correlation = 0.5095
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: Key = 0xB0, Correlation = 0.4967
+  #2: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4967
+  #3: Key = 0xB8, Correlation = 0.4742
+  #4: Key = 0x47, Correlation = 0.4742
+  #5: Key = 0x4B, Correlation = 0.4362
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.4795
+  #2: Key = 0xC3, Correlation = 0.4795
+  #3: Key = 0x34, Correlation = 0.4161
+  #4: Key = 0xCB, Correlation = 0.4161
+  #5: Key = 0x2C, Correlation = 0.3791
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x60[0m [91m[1m0x56[0m [91m[1m0x08[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [91m[1m0x30[0m [91m[1m0xB0[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x60[0m [91m[1m0x56[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 3^10
+  Remaining key complexity: 2^48
+  Total complexity: 3^10 + 2^48 = 2^63.84962500721156 = 281474976769705
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x55[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 10^12
+  Remaining key complexity: 2^32
+  Total complexity: 10^12 + 2^32 = 2^71.86313713864834 = 1004294967296
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x60[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/500/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 600 traces from position 0 to 625...
+Reading trace 0/600
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (600, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (600, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 600 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2440
+  #2: Key = 0xD4, Correlation = 0.2440
+  #3: Key = 0x29, Correlation = 0.2335
+  #4: Key = 0xD6, Correlation = 0.2335
+  #5: Key = 0x54, Correlation = 0.2266
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2229
+  #2: Key = 0x81, Correlation = 0.2229
+  #3: Key = 0x6E, Correlation = 0.2076
+  #4: Key = 0x91, Correlation = 0.2076
+  #5: Key = 0x3E, Correlation = 0.2042
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2541
+  #2: Key = 0xE8, Correlation = 0.2541
+  #3: Key = 0x13, Correlation = 0.2399
+  #4: Key = 0xEC, Correlation = 0.2399
+  #5: Key = 0x68, Correlation = 0.2396
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2710
+  #2: Key = 0xE9, Correlation = 0.2710
+  #3: Key = 0x14, Correlation = 0.2478
+  #4: Key = 0xEB, Correlation = 0.2478
+  #5: Key = 0xF9, Correlation = 0.2420
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2908
+  #2: Key = 0xDA, Correlation = 0.2908
+  #3: Key = 0x5A, Correlation = 0.2679
+  #4: Key = 0xA5, Correlation = 0.2679
+  #5: Key = 0x21, Correlation = 0.2666
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x50, Correlation = 0.3120
+  #2: Key = 0xAF, Correlation = 0.3120
+  #3: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2897
+  #4: Key = 0x51, Correlation = 0.2897
+  #5: Key = 0x52, Correlation = 0.2859
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2F, Correlation = 0.2863
+  #2: Key = 0xD0, Correlation = 0.2863
+  #3: Key = 0x2D, Correlation = 0.2752
+  #4: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.2752
+  #5: Key = 0x3F, Correlation = 0.2581
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x58, Correlation = 0.1749
+  #2: Key = 0xA7, Correlation = 0.1749
+  #3: Key = 0x53, Correlation = 0.1737
+  #4: Key = 0xAC, Correlation = 0.1737
+  #5: Key = 0x5C, Correlation = 0.1715
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3350
+  #2: Key = 0xA9, Correlation = 0.3350
+  #3: Key = 0x54, Correlation = 0.3047
+  #4: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3047
+  #5: Key = 0x29, Correlation = 0.3003
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x08, Correlation = 0.3304
+  #2: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3304
+  #3: Key = 0x0A, Correlation = 0.3293
+  #4: Key = 0xF5, Correlation = 0.3293
+  #5: Key = 0x09, Correlation = 0.2610
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.3110
+  #2: Key = 0xEA, Correlation = 0.3110
+  #3: Key = 0x17, Correlation = 0.2994
+  #4: Key = 0xE8, Correlation = 0.2994
+  #5: Key = 0x55, Correlation = 0.2902
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x71, Correlation = 0.2895
+  #2: Key = 0x8E, Correlation = 0.2895
+  #3: Key = 0x75, Correlation = 0.2724
+  #4: Key = 0x8A, Correlation = 0.2724
+  #5: Key = 0x0E, Correlation = 0.2494
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x0B, Correlation = 0.2839
+  #2: Key = 0xF4, Correlation = 0.2839
+  #3: Key = 0xFB, Correlation = 0.2649
+  #4: Key = 0x04, Correlation = 0.2649
+  #5: Key = 0x0A, Correlation = 0.2623
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5419
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5419
+  #3: Key = 0x34, Correlation = 0.5326
+  #4: Key = 0xCB, Correlation = 0.5326
+  #5: Key = 0x31, Correlation = 0.5000
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4937
+  #2: Key = 0xB0, Correlation = 0.4937
+  #3: Key = 0x47, Correlation = 0.4758
+  #4: Key = 0xB8, Correlation = 0.4758
+  #5: Key = 0x4B, Correlation = 0.4318
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: Key = 0xC3, Correlation = 0.5038
+  #2: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5038
+  #3: Key = 0x34, Correlation = 0.4266
+  #4: Key = 0xCB, Correlation = 0.4266
+  #5: Key = 0x3E, Correlation = 0.4001
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2F[0m [91m[1m0x58[0m [91m[1m0x56[0m [91m[1m0x08[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [91m[1m0x30[0m [92m[1m0x4F[0m [91m[1m0xC3[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2F[0m [91m[1m0x58[0m [91m[1m0x56[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 3^11
+  Remaining key complexity: 2^40
+  Total complexity: 3^11 + 2^40 = 2^57.43458750793272 = 1099511804923
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 4^11
+  Remaining key complexity: 2^40
+  Total complexity: 4^11 + 2^40 = 2^62.0 = 1099515822080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 5^11
+  Remaining key complexity: 2^40
+  Total complexity: 5^11 + 2^40 = 2^65.54120904376099 = 1099560455901
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 10^13
+  Remaining key complexity: 2^24
+  Total complexity: 10^13 + 2^24 = 2^67.18506523353571 = 10000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x58[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 100^15
+  Remaining key complexity: 2^8
+  Total complexity: 100^15 + 2^8 = 2^107.65784284662087 = 1000000000000000000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x71[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/600/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 700 traces from position 0 to 625...
+Reading trace 0/700
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (700, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (700, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 700 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2369
+  #2: Key = 0xD4, Correlation = 0.2369
+  #3: Key = 0x29, Correlation = 0.2328
+  #4: Key = 0xD6, Correlation = 0.2328
+  #5: Key = 0x54, Correlation = 0.2139
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x81, Correlation = 0.2248
+  #2: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2248
+  #3: Key = 0x6E, Correlation = 0.2026
+  #4: Key = 0x91, Correlation = 0.2026
+  #5: Key = 0x7C, Correlation = 0.1985
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2586
+  #2: Key = 0xE8, Correlation = 0.2586
+  #3: Key = 0x13, Correlation = 0.2405
+  #4: Key = 0xEC, Correlation = 0.2405
+  #5: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2400
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2579
+  #2: Key = 0xE9, Correlation = 0.2579
+  #3: Key = 0x06, Correlation = 0.2463
+  #4: Key = 0xF9, Correlation = 0.2463
+  #5: Key = 0x14, Correlation = 0.2409
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2796
+  #2: Key = 0xDA, Correlation = 0.2796
+  #3: Key = 0x5A, Correlation = 0.2588
+  #4: Key = 0xA5, Correlation = 0.2588
+  #5: Key = 0x21, Correlation = 0.2515
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x50, Correlation = 0.2787
+  #2: Key = 0xAF, Correlation = 0.2787
+  #3: Key = 0x51, Correlation = 0.2611
+  #4: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2611
+  #5: Key = 0x52, Correlation = 0.2519
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.2745
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.2745
+  #3: Key = 0x2F, Correlation = 0.2741
+  #4: Key = 0xD0, Correlation = 0.2741
+  #5: Key = 0x50, Correlation = 0.2486
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x56, Correlation = 0.1844
+  #2: Key = 0xA9, Correlation = 0.1844
+  #3: Key = 0x5E, Correlation = 0.1829
+  #4: Key = 0xA1, Correlation = 0.1829
+  #5: Key = 0x5F, Correlation = 0.1812
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3321
+  #2: Key = 0xA9, Correlation = 0.3321
+  #3: Key = 0x54, Correlation = 0.3044
+  #4: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3044
+  #5: Key = 0x16, Correlation = 0.2934
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x08, Correlation = 0.3248
+  #2: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3248
+  #3: Key = 0x0A, Correlation = 0.3204
+  #4: Key = 0xF5, Correlation = 0.3204
+  #5: Key = 0xE7, Correlation = 0.2710
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0xE8, Correlation = 0.3016
+  #2: Key = 0x17, Correlation = 0.3016
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2958
+  #4: Key = 0xEA, Correlation = 0.2958
+  #5: Key = 0x68, Correlation = 0.2946
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x75, Correlation = 0.2878
+  #2: Key = 0x8A, Correlation = 0.2878
+  #3: Key = 0x71, Correlation = 0.2758
+  #4: Key = 0x8E, Correlation = 0.2758
+  #5: Key = 0x35, Correlation = 0.2375
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x0B, Correlation = 0.2838
+  #2: Key = 0xF4, Correlation = 0.2838
+  #3: Key = 0x04, Correlation = 0.2685
+  #4: Key = 0xFB, Correlation = 0.2685
+  #5: Key = 0x0A, Correlation = 0.2599
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5299
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5299
+  #3: Key = 0x34, Correlation = 0.5236
+  #4: Key = 0xCB, Correlation = 0.5236
+  #5: Key = 0x31, Correlation = 0.4852
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4753
+  #2: Key = 0xB0, Correlation = 0.4753
+  #3: Key = 0x47, Correlation = 0.4675
+  #4: Key = 0xB8, Correlation = 0.4675
+  #5: Key = 0x4B, Correlation = 0.4300
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5063
+  #2: Key = 0xC3, Correlation = 0.5063
+  #3: Key = 0x34, Correlation = 0.4211
+  #4: Key = 0xCB, Correlation = 0.4211
+  #5: Key = 0x3E, Correlation = 0.3977
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 1^4
+  Remaining key complexity: 2^96
+  Total complexity: 1^4 + 2^96 = 2^96.0 = 79228162514264337593543950337
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [91m[1m0x81[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2D[0m [91m[1m0x56[0m [91m[1m0x56[0m [91m[1m0x08[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 8/16
+  Bytes to guess: 8/16
+  Partial key complexity: 2^8
+  Remaining key complexity: 2^64
+  Total complexity: 2^8 + 2^64 = 2^72.0 = 18446744073709551872
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x56[0m [91m[1m0x56[0m [92m[1m0xF7[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 10/16
+  Bytes to guess: 6/16
+  Partial key complexity: 3^10
+  Remaining key complexity: 2^48
+  Total complexity: 3^10 + 2^48 = 2^63.84962500721156 = 281474976769705
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0xE8[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 4^11
+  Remaining key complexity: 2^40
+  Total complexity: 4^11 + 2^40 = 2^62.0 = 1099515822080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0B[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 10^13
+  Remaining key complexity: 2^24
+  Total complexity: 10^13 + 2^24 = 2^67.18506523353571 = 10000016777216
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 25^14
+  Remaining key complexity: 2^16
+  Total complexity: 25^14 + 2^16 = 2^81.01398665684614 = 37252902984619206161
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 30^14
+  Remaining key complexity: 2^16
+  Total complexity: 30^14 + 2^16 = 2^84.69646833851927 = 478296900000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x56[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 50^16
+  Remaining key complexity: 2^0
+  Total complexity: 50^16 + 2^0 = 2^90.30169903639559 = 1525878906250000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/700/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 800 traces from position 0 to 625...
+Reading trace 0/800
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (800, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (800, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 800 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: Key = 0x29, Correlation = 0.2358
+  #2: Key = 0xD6, Correlation = 0.2358
+  #3: Key = 0xD4, Correlation = 0.2337
+  #4: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2337
+  #5: Key = 0x56, Correlation = 0.1982
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: Key = 0x81, Correlation = 0.2102
+  #2: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.2102
+  #3: Key = 0x6E, Correlation = 0.1995
+  #4: Key = 0x91, Correlation = 0.1995
+  #5: Key = 0x7C, Correlation = 0.1933
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2556
+  #2: Key = 0xE8, Correlation = 0.2556
+  #3: Key = 0xEA, Correlation = 0.2542
+  #4: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2542
+  #5: Key = 0x13, Correlation = 0.2369
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2361
+  #2: Key = 0xE9, Correlation = 0.2361
+  #3: Key = 0xEB, Correlation = 0.2300
+  #4: Key = 0x14, Correlation = 0.2300
+  #5: Key = 0x06, Correlation = 0.2204
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2500
+  #2: Key = 0xDA, Correlation = 0.2500
+  #3: Key = 0xD7, Correlation = 0.2377
+  #4: [92m[1mKey = 0x28 (Correct)[0m, Correlation = 0.2377
+  #5: Key = 0x21, Correlation = 0.2342
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x50, Correlation = 0.2606
+  #2: Key = 0xAF, Correlation = 0.2606
+  #3: Key = 0x51, Correlation = 0.2517
+  #4: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2517
+  #5: Key = 0x52, Correlation = 0.2321
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.2661
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.2661
+  #3: Key = 0x2F, Correlation = 0.2652
+  #4: Key = 0xD0, Correlation = 0.2652
+  #5: Key = 0x6D, Correlation = 0.2329
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x5E, Correlation = 0.1790
+  #2: Key = 0xA1, Correlation = 0.1790
+  #3: Key = 0xA8, Correlation = 0.1734
+  #4: Key = 0x57, Correlation = 0.1734
+  #5: Key = 0x5F, Correlation = 0.1705
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3395
+  #2: Key = 0xA9, Correlation = 0.3395
+  #3: Key = 0x54, Correlation = 0.3059
+  #4: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3059
+  #5: Key = 0x16, Correlation = 0.2972
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3340
+  #2: Key = 0xF5, Correlation = 0.3340
+  #3: Key = 0x08, Correlation = 0.3291
+  #4: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3291
+  #5: Key = 0x1A, Correlation = 0.2827
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.3050
+  #2: Key = 0xE8, Correlation = 0.3050
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2921
+  #4: Key = 0xEA, Correlation = 0.2921
+  #5: Key = 0x68, Correlation = 0.2864
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x75, Correlation = 0.2979
+  #2: Key = 0x8A, Correlation = 0.2979
+  #3: Key = 0x71, Correlation = 0.2845
+  #4: Key = 0x8E, Correlation = 0.2845
+  #5: Key = 0x65, Correlation = 0.2488
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x0A, Correlation = 0.2728
+  #2: Key = 0xF5, Correlation = 0.2728
+  #3: Key = 0x0B, Correlation = 0.2715
+  #4: Key = 0xF4, Correlation = 0.2715
+  #5: Key = 0x04, Correlation = 0.2644
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5397
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5397
+  #3: Key = 0x34, Correlation = 0.5207
+  #4: Key = 0xCB, Correlation = 0.5207
+  #5: Key = 0x31, Correlation = 0.4986
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4739
+  #2: Key = 0xB0, Correlation = 0.4739
+  #3: Key = 0x47, Correlation = 0.4650
+  #4: Key = 0xB8, Correlation = 0.4650
+  #5: Key = 0x4B, Correlation = 0.4215
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5120
+  #2: Key = 0xC3, Correlation = 0.5120
+  #3: Key = 0x34, Correlation = 0.4225
+  #4: Key = 0xCB, Correlation = 0.4225
+  #5: Key = 0x3E, Correlation = 0.4052
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 3/16
+  Bytes to guess: 13/16
+  Partial key complexity: 1^3
+  Remaining key complexity: 2^104
+  Total complexity: 1^3 + 2^104 = 2^104.0 = 20282409603651670423947251286017
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [91m[1m0x81[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [91m[1m0x2D[0m [91m[1m0x5E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 6/16
+  Bytes to guess: 10/16
+  Partial key complexity: 2^6
+  Remaining key complexity: 2^80
+  Total complexity: 2^6 + 2^80 = 2^86.0 = 1208925819614629174706240
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x50[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 3^9
+  Remaining key complexity: 2^56
+  Total complexity: 3^9 + 2^56 = 2^70.26466250649041 = 72057594037947619
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0x29[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 4^13
+  Remaining key complexity: 2^24
+  Total complexity: 4^13 + 2^24 = 2^50.0 = 83886080
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 5^13
+  Remaining key complexity: 2^24
+  Total complexity: 5^13 + 2^24 = 2^54.18506523353571 = 1237480341
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5E[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/800/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 900 traces from position 0 to 625...
+Reading trace 0/900
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (900, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (900, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 900 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: Key = 0xD6, Correlation = 0.2358
+  #2: Key = 0x29, Correlation = 0.2358
+  #3: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2323
+  #4: Key = 0xD4, Correlation = 0.2323
+  #5: Key = 0xF4, Correlation = 0.2114
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.1996
+  #2: Key = 0x81, Correlation = 0.1996
+  #3: Key = 0x6E, Correlation = 0.1928
+  #4: Key = 0x91, Correlation = 0.1928
+  #5: Key = 0x7C, Correlation = 0.1884
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2443
+  #2: Key = 0xE8, Correlation = 0.2443
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2408
+  #4: Key = 0xEA, Correlation = 0.2408
+  #5: Key = 0x13, Correlation = 0.2171
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2333
+  #2: Key = 0xE9, Correlation = 0.2333
+  #3: Key = 0xEB, Correlation = 0.2247
+  #4: Key = 0x14, Correlation = 0.2247
+  #5: Key = 0x06, Correlation = 0.2126
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: Key = 0x25, Correlation = 0.2386
+  #2: Key = 0xDA, Correlation = 0.2386
+  #3: [92m[1mKey = 0x28 (Correct)[0m, Correlation = 0.2375
+  #4: Key = 0xD7, Correlation = 0.2375
+  #5: Key = 0x2A, Correlation = 0.2336
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x51, Correlation = 0.2498
+  #2: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2498
+  #3: Key = 0x50, Correlation = 0.2492
+  #4: Key = 0xAF, Correlation = 0.2492
+  #5: Key = 0x53, Correlation = 0.2220
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.2641
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.2641
+  #3: Key = 0xD0, Correlation = 0.2586
+  #4: Key = 0x2F, Correlation = 0.2586
+  #5: Key = 0x6D, Correlation = 0.2419
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0x5A, Correlation = 0.1772
+  #2: Key = 0xA5, Correlation = 0.1772
+  #3: Key = 0x5E, Correlation = 0.1767
+  #4: Key = 0xA1, Correlation = 0.1767
+  #5: Key = 0x53, Correlation = 0.1720
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3367
+  #2: Key = 0xA9, Correlation = 0.3367
+  #3: Key = 0x54, Correlation = 0.3118
+  #4: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3118
+  #5: Key = 0x29, Correlation = 0.2940
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3169
+  #2: Key = 0xF5, Correlation = 0.3169
+  #3: Key = 0x08, Correlation = 0.3044
+  #4: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.3044
+  #5: Key = 0x1A, Correlation = 0.2714
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.3004
+  #2: Key = 0xE8, Correlation = 0.3004
+  #3: Key = 0x68, Correlation = 0.2983
+  #4: Key = 0x97, Correlation = 0.2983
+  #5: Key = 0x28, Correlation = 0.2763
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x75, Correlation = 0.2951
+  #2: Key = 0x8A, Correlation = 0.2951
+  #3: Key = 0x71, Correlation = 0.2801
+  #4: Key = 0x8E, Correlation = 0.2801
+  #5: Key = 0x35, Correlation = 0.2438
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x04, Correlation = 0.2774
+  #2: Key = 0xFB, Correlation = 0.2774
+  #3: Key = 0xF4, Correlation = 0.2683
+  #4: Key = 0x0B, Correlation = 0.2683
+  #5: Key = 0x0A, Correlation = 0.2662
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5446
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5446
+  #3: Key = 0xCB, Correlation = 0.5238
+  #4: Key = 0x34, Correlation = 0.5238
+  #5: Key = 0xCE, Correlation = 0.5013
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4847
+  #2: Key = 0xB0, Correlation = 0.4847
+  #3: Key = 0x47, Correlation = 0.4705
+  #4: Key = 0xB8, Correlation = 0.4705
+  #5: Key = 0x4B, Correlation = 0.4253
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5215
+  #2: Key = 0xC3, Correlation = 0.5215
+  #3: Key = 0x34, Correlation = 0.4274
+  #4: Key = 0xCB, Correlation = 0.4274
+  #5: Key = 0x3E, Correlation = 0.4199
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 4/16
+  Bytes to guess: 12/16
+  Partial key complexity: 1^4
+  Remaining key complexity: 2^96
+  Total complexity: 1^4 + 2^96 = 2^96.0 = 79228162514264337593543950337
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0x5A[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 7/16
+  Bytes to guess: 9/16
+  Partial key complexity: 2^7
+  Remaining key complexity: 2^72
+  Total complexity: 2^7 + 2^72 = 2^79.0 = 4722366482869645213824
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 3^9
+  Remaining key complexity: 2^56
+  Total complexity: 3^9 + 2^56 = 2^70.26466250649041 = 72057594037947619
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD6[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [91m[1m0x25[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 5^12
+  Remaining key complexity: 2^32
+  Total complexity: 5^12 + 2^32 = 2^59.86313713864835 = 4539107921
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x75[0m [91m[1m0x04[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 20^14
+  Remaining key complexity: 2^16
+  Total complexity: 20^14 + 2^16 = 2^76.50699332842308 = 1638400000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x75[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 25^15
+  Remaining key complexity: 2^8
+  Total complexity: 25^15 + 2^8 = 2^77.65784284662087 = 931322574615478515881
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 30^15
+  Remaining key complexity: 2^8
+  Total complexity: 30^15 + 2^8 = 2^81.60335893412778 = 14348907000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 50^15
+  Remaining key complexity: 2^8
+  Total complexity: 50^15 + 2^8 = 2^92.65784284662087 = 30517578125000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0x5A[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/900/complexity_vs_top_n.png'.
+Initializing AES attack...
+Opened TRS file: TinyAES_625Samples_FirstRoundSbox.trs
+Reading TRS header...
+Number of Traces: 1000
+Number of Samples per Trace: 625
+Samples are integers: True
+Cryptographic Data Length: 32
+Header reading complete.
+Reading 1000 traces from position 0 to 625...
+Reading trace 0/1000
+Finished reading traces.
+Processing byte number: 0
+Processing byte number: 1
+Processing byte number: 2
+Processing byte number: 3
+Processing byte number: 4
+Processing byte number: 5
+Processing byte number: 6
+Processing byte number: 7
+Processing byte number: 8
+Processing byte number: 9
+Processing byte number: 10
+Processing byte number: 11
+Processing byte number: 12
+Processing byte number: 13
+Processing byte number: 14
+Processing byte number: 15
+Initialization complete.
+TRS file closed.
+After loading: Traces shape = (1000, 625)
+Optimizing Savitzky-Golay parameters...
+Applying Savitzky-Golay filter with optimized parameters: window_length=11, polyorder=4
+Segmenting traces: Using samples 0-625...
+After segmentation: Traces shape = (1000, 625)
+Traces plot saved as 'example_traces.png'.
+
+Using 1000 traces...
+
+
+ --------------------------------- 
+
+Analyzing byte 0 with max correlation...
+Top 5 key guesses for byte 0: [real key = 0x2B]
+  #1: Key = 0xD4, Correlation = 0.2377
+  #2: [92m[1mKey = 0x2B (Correct)[0m, Correlation = 0.2377
+  #3: Key = 0x29, Correlation = 0.2366
+  #4: Key = 0xD6, Correlation = 0.2366
+  #5: Key = 0x0B, Correlation = 0.2140
+
+ --------------------------------- 
+
+Analyzing byte 1 with max correlation...
+Top 5 key guesses for byte 1: [real key = 0x7E]
+  #1: [92m[1mKey = 0x7E (Correct)[0m, Correlation = 0.1993
+  #2: Key = 0x81, Correlation = 0.1993
+  #3: Key = 0x6E, Correlation = 0.1956
+  #4: Key = 0x91, Correlation = 0.1956
+  #5: Key = 0x7C, Correlation = 0.1934
+
+ --------------------------------- 
+
+Analyzing byte 2 with max correlation...
+Top 5 key guesses for byte 2: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2548
+  #2: Key = 0xE8, Correlation = 0.2548
+  #3: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2435
+  #4: Key = 0xEA, Correlation = 0.2435
+  #5: Key = 0x13, Correlation = 0.2278
+
+ --------------------------------- 
+
+Analyzing byte 3 with max correlation...
+Top 5 key guesses for byte 3: [real key = 0x16]
+  #1: [92m[1mKey = 0x16 (Correct)[0m, Correlation = 0.2292
+  #2: Key = 0xE9, Correlation = 0.2292
+  #3: Key = 0x14, Correlation = 0.2237
+  #4: Key = 0xEB, Correlation = 0.2237
+  #5: Key = 0xF9, Correlation = 0.2014
+
+ --------------------------------- 
+
+Analyzing byte 4 with max correlation...
+Top 5 key guesses for byte 4: [real key = 0x28]
+  #1: [92m[1mKey = 0x28 (Correct)[0m, Correlation = 0.2311
+  #2: Key = 0xD7, Correlation = 0.2311
+  #3: Key = 0x21, Correlation = 0.2220
+  #4: Key = 0xDE, Correlation = 0.2220
+  #5: Key = 0x23, Correlation = 0.2213
+
+ --------------------------------- 
+
+Analyzing byte 5 with max correlation...
+Top 5 key guesses for byte 5: [real key = 0xAE]
+  #1: Key = 0x51, Correlation = 0.2507
+  #2: [92m[1mKey = 0xAE (Correct)[0m, Correlation = 0.2507
+  #3: Key = 0x50, Correlation = 0.2501
+  #4: Key = 0xAF, Correlation = 0.2501
+  #5: Key = 0x53, Correlation = 0.2267
+
+ --------------------------------- 
+
+Analyzing byte 6 with max correlation...
+Top 5 key guesses for byte 6: [real key = 0xD2]
+  #1: Key = 0x2D, Correlation = 0.2606
+  #2: [92m[1mKey = 0xD2 (Correct)[0m, Correlation = 0.2606
+  #3: Key = 0x2F, Correlation = 0.2547
+  #4: Key = 0xD0, Correlation = 0.2547
+  #5: Key = 0x6D, Correlation = 0.2377
+
+ --------------------------------- 
+
+Analyzing byte 7 with max correlation...
+Top 5 key guesses for byte 7: [real key = 0xA6]
+  #1: Key = 0xA4, Correlation = 0.1940
+  #2: Key = 0x5B, Correlation = 0.1940
+  #3: Key = 0x5F, Correlation = 0.1881
+  #4: Key = 0xA0, Correlation = 0.1881
+  #5: Key = 0x5A, Correlation = 0.1864
+
+ --------------------------------- 
+
+Analyzing byte 8 with max correlation...
+Top 5 key guesses for byte 8: [real key = 0xAB]
+  #1: Key = 0x56, Correlation = 0.3328
+  #2: Key = 0xA9, Correlation = 0.3328
+  #3: [92m[1mKey = 0xAB (Correct)[0m, Correlation = 0.3046
+  #4: Key = 0x54, Correlation = 0.3046
+  #5: Key = 0x29, Correlation = 0.2861
+
+ --------------------------------- 
+
+Analyzing byte 9 with max correlation...
+Top 5 key guesses for byte 9: [real key = 0xF7]
+  #1: Key = 0x0A, Correlation = 0.3125
+  #2: Key = 0xF5, Correlation = 0.3125
+  #3: [92m[1mKey = 0xF7 (Correct)[0m, Correlation = 0.2938
+  #4: Key = 0x08, Correlation = 0.2938
+  #5: Key = 0x1A, Correlation = 0.2660
+
+ --------------------------------- 
+
+Analyzing byte 10 with max correlation...
+Top 5 key guesses for byte 10: [real key = 0x15]
+  #1: Key = 0x17, Correlation = 0.2927
+  #2: Key = 0xE8, Correlation = 0.2927
+  #3: Key = 0x97, Correlation = 0.2881
+  #4: Key = 0x68, Correlation = 0.2881
+  #5: [92m[1mKey = 0x15 (Correct)[0m, Correlation = 0.2777
+
+ --------------------------------- 
+
+Analyzing byte 11 with max correlation...
+Top 5 key guesses for byte 11: [real key = 0x88]
+  #1: Key = 0x8A, Correlation = 0.3009
+  #2: Key = 0x75, Correlation = 0.3009
+  #3: Key = 0x71, Correlation = 0.2825
+  #4: Key = 0x8E, Correlation = 0.2825
+  #5: Key = 0x35, Correlation = 0.2467
+
+ --------------------------------- 
+
+Analyzing byte 12 with max correlation...
+Top 5 key guesses for byte 12: [real key = 0x09]
+  #1: Key = 0x0A, Correlation = 0.2778
+  #2: Key = 0xF5, Correlation = 0.2778
+  #3: Key = 0x04, Correlation = 0.2748
+  #4: Key = 0xFB, Correlation = 0.2748
+  #5: Key = 0x0B, Correlation = 0.2729
+
+ --------------------------------- 
+
+Analyzing byte 13 with max correlation...
+Top 5 key guesses for byte 13: [real key = 0xCF]
+  #1: Key = 0x30, Correlation = 0.5592
+  #2: [92m[1mKey = 0xCF (Correct)[0m, Correlation = 0.5592
+  #3: Key = 0x34, Correlation = 0.5295
+  #4: Key = 0xCB, Correlation = 0.5295
+  #5: Key = 0x31, Correlation = 0.5118
+
+ --------------------------------- 
+
+Analyzing byte 14 with max correlation...
+Top 5 key guesses for byte 14: [real key = 0x4F]
+  #1: [92m[1mKey = 0x4F (Correct)[0m, Correlation = 0.4804
+  #2: Key = 0xB0, Correlation = 0.4804
+  #3: Key = 0x47, Correlation = 0.4683
+  #4: Key = 0xB8, Correlation = 0.4683
+  #5: Key = 0x4B, Correlation = 0.4224
+
+ --------------------------------- 
+
+Analyzing byte 15 with max correlation...
+Top 5 key guesses for byte 15: [real key = 0x3C]
+  #1: [92m[1mKey = 0x3C (Correct)[0m, Correlation = 0.5302
+  #2: Key = 0xC3, Correlation = 0.5302
+  #3: Key = 0x34, Correlation = 0.4274
+  #4: Key = 0xCB, Correlation = 0.4274
+  #5: Key = 0x3E, Correlation = 0.4222
+
+Real key:
+0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+Performing statistical analysis on top-N results...
+
+
+Brute force combinations: 2^128 = 256^16
+
+Top-1 analysis:
+  Correct bytes: 5/16
+  Bytes to guess: 11/16
+  Partial key complexity: 1^5
+  Remaining key complexity: 2^88
+  Total complexity: 1^5 + 2^88 = 2^88.0 = 309485009821345068724781057
+
+
+  Key recovery example:
+     Recovered Key: [91m[1m0xD4[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [91m[1m0x51[0m [91m[1m0x2D[0m [91m[1m0xA4[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [91m[1m0x30[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-2 analysis:
+  Correct bytes: 9/16
+  Bytes to guess: 7/16
+  Partial key complexity: 2^9
+  Remaining key complexity: 2^56
+  Total complexity: 2^9 + 2^56 = 2^65.0 = 72057594037928448
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [91m[1m0x56[0m [91m[1m0x0A[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-3 analysis:
+  Correct bytes: 11/16
+  Bytes to guess: 5/16
+  Partial key complexity: 3^11
+  Remaining key complexity: 2^40
+  Total complexity: 3^11 + 2^40 = 2^57.43458750793272 = 1099511804923
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [91m[1m0x17[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-4 analysis:
+  Correct bytes: 12/16
+  Bytes to guess: 4/16
+  Partial key complexity: 4^12
+  Remaining key complexity: 2^32
+  Total complexity: 4^12 + 2^32 = 2^56.0 = 4311744512
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [91m[1m0x17[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-5 analysis:
+  Correct bytes: 13/16
+  Bytes to guess: 3/16
+  Partial key complexity: 5^13
+  Remaining key complexity: 2^24
+  Total complexity: 5^13 + 2^24 = 2^54.18506523353571 = 1237480341
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [91m[1m0x0A[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-10 analysis:
+  Correct bytes: 14/16
+  Bytes to guess: 2/16
+  Partial key complexity: 10^14
+  Remaining key complexity: 2^16
+  Total complexity: 10^14 + 2^16 = 2^62.50699332842307 = 100000000065536
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [91m[1m0xA4[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-20 analysis:
+  Correct bytes: 15/16
+  Bytes to guess: 1/16
+  Partial key complexity: 20^15
+  Remaining key complexity: 2^8
+  Total complexity: 20^15 + 2^8 = 2^72.82892142331043 = 32768000000000000256
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [91m[1m0x8A[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-25 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 25^16
+  Remaining key complexity: 2^0
+  Total complexity: 25^16 + 2^0 = 2^74.30169903639559 = 23283064365386962890626
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-30 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 30^16
+  Remaining key complexity: 2^0
+  Total complexity: 30^16 + 2^0 = 2^78.5102495297363 = 430467210000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-50 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 50^16
+  Remaining key complexity: 2^0
+  Total complexity: 50^16 + 2^0 = 2^90.30169903639559 = 1525878906250000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Top-100 analysis:
+  Correct bytes: 16/16
+  Bytes to guess: 0/16
+  Partial key complexity: 100^16
+  Remaining key complexity: 2^0
+  Total complexity: 100^16 + 2^0 = 2^106.30169903639559 = 100000000000000000000000000000001
+
+
+  Key recovery example:
+     Recovered Key: [92m[1m0x2B[0m [92m[1m0x7E[0m [92m[1m0x15[0m [92m[1m0x16[0m [92m[1m0x28[0m [92m[1m0xAE[0m [92m[1m0xD2[0m [92m[1m0xA6[0m [92m[1m0xAB[0m [92m[1m0xF7[0m [92m[1m0x15[0m [92m[1m0x88[0m [92m[1m0x09[0m [92m[1m0xCF[0m [92m[1m0x4F[0m [92m[1m0x3C[0m
+     Real Key:      0x2B 0x7E 0x15 0x16 0x28 0xAE 0xD2 0xA6 0xAB 0xF7 0x15 0x88 0x09 0xCF 0x4F 0x3C
+
+
+Risultati statistici salvati in 'statistical_results.csv'
+Generazione del grafico Complexity vs Top-N...
+Grafico salvato in 'data/attack_byte_correlation/images/1000/complexity_vs_top_n.png'.
+CPA attack completed.
+TRS file closed.

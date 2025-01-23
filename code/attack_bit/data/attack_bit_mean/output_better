@@ -1,0 +1,53 @@
+[Nm=100] Weighted key guess:
+B9 A0 EF C6 BF 40 B6 AF 19 FF 4F DA 76 82 B1 3C
+[Nm=100] Most frequent key guess:
+12 01 C2 10 02 03 21 1B 0A 03 0A 19 0B 01 08 10
+[Nm=100] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=100] Total time: 54.00s, Avg/byte=3.38s
+Output stored in: data/attack_bit_mean/df/100
+
+[Nm=200] Weighted key guess:
+95 7E FB 3F 28 40 E4 1B 56 03 09 DA 09 CF 4F 3C
+[Nm=200] Most frequent key guess:
+03 13 0E 09 17 40 15 1B 14 08 12 16 0D CF 4F 3C
+[Nm=200] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=200] Total time: 67.35s, Avg/byte=4.21s
+Output stored in: data/attack_bit_mean/df/200
+
+[Nm=300] Weighted key guess:
+87 7E 0A 8A 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=300] Most frequent key guess:
+17 7E 15 10 01 2F 05 1B 1E 07 15 65 09 CF 4F 3C
+[Nm=300] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=300] Total time: 82.18s, Avg/byte=5.14s
+Output stored in: data/attack_bit_mean/df/300
+
+[Nm=400] Weighted key guess:
+C0 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=400] Most frequent key guess:
+2A 7E 15 0F 28 AE 05 A6 06 F7 15 62 09 CF 4F 3C
+[Nm=400] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=400] Total time: 96.10s, Avg/byte=6.01s
+Output stored in: data/attack_bit_mean/df/400
+
+[Nm=500] Weighted key guess:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=500] Most frequent key guess:
+0F 7E 17 10 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=500] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=500] Total time: 109.94s, Avg/byte=6.87s
+Output stored in: data/attack_bit_mean/df/500
+
+[Nm=1000] Weighted key guess:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=1000] Most frequent key guess:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=1000] Real key:
+2B 7E 15 16 28 AE D2 A6 AB F7 15 88 09 CF 4F 3C
+[Nm=1000] Total time: 178.22s, Avg/byte=11.14s
+Output stored in: data/attack_bit_mean/df/1000
